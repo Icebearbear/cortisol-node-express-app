@@ -1,0 +1,60 @@
+# Dependencies (Never commit node_modules)
+node_modules/
+jspm_packages/
+web_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data and caches
+pids
+*.pid
+*.seed
+*.pid.lock
+.npm
+.eslintcache
+.stylelintcache
+.cache
+.parcel-cache
+
+# Build and Output directories
+dist/
+build/
+out/
+.next/
+.nuxt/
+.output/
+.svelte-kit/
+
+# Environment variables and secrets (Crucial for security)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env.js
+
+# Allow an example env file to be committed as a template
+!.env.example
+
+# Testing and Coverage output
+coverage/
+.nyc_output
+
+# IDEs and Text Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Operating System files
+.DS_Store
+Thumbs.db
